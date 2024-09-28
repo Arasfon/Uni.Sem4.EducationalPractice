@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Uni.EducationalPractice4.TaskInfoDialogContentPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical" Spacing="8">
+            <TextBlock TextWrapping="WrapWholeWords">
+                Шарик скатывается по гладкому жёлобу, изогнутому по циклоиде. Не учитывая трения и сопротивления воздуха, найти:
+            </TextBlock>
+            <TextBlock TextWrapping="WrapWholeWords">
+                1. Зависимости пути, проходимого центром тяжести шарика, от времени;
+            </TextBlock>
+            <TextBlock TextWrapping="WrapWholeWords">
+                2. За какое время шарик скатывается от начала циклоидального жёлоба <Run FontFamily="Cambria Math">𝐴(0, 2𝑎)</Run> до его низшей точки <Run FontFamily="Cambria Math">𝐵(𝜋𝑎; 0)</Run> а) по жёлобу и б) по прямой.
+            </TextBlock>
+            <TextBlock TextWrapping="WrapWholeWords">
+                3. Сравнить длины дуги <Run FontFamily="Cambria Math">𝐴𝐵</Run> и отрезка прямой <Run FontFamily="Cambria Math">𝐴𝐵</Run>
+            </TextBlock>
+            <TextBlock TextWrapping="WrapWholeWords">
+                Длина дуги одной ветви циклоиды равна <Run FontFamily="Cambria Math">8𝑎</Run>.
+            </TextBlock>
+            <TextBlock TextWrapping="WrapWholeWords">
+                Дифференциальное уравнение движения центра тяжести шарика при скатывании по жёлобу:
+            </TextBlock>
+            <Image Source="{ThemeResource FirstEquationImageSource}"/>
+            <TextBlock TextWrapping="WrapWholeWords">
+                <Run FontFamily="Cambria Math">𝑠</Run> — длина пути, пройденного центром тяжести шарика за время <Run FontFamily="Cambria Math">𝑡</Run>, <Run FontFamily="Cambria Math">𝑚</Run> — масса шарика, <Run FontFamily="Cambria Math">𝑔</Run> — ускорение силы тяжести.
+            </TextBlock>
+            <TextBlock TextWrapping="WrapWholeWords">
+                При скатывании шарика по прямой <Run FontFamily="Cambria Math">𝐴𝐵</Run> дифференциальное уравнение его центра тяжести:
+            </TextBlock>
+            <Image Source="{ThemeResource SecondEquationImageSource}"/>
+            <TextBlock TextWrapping="WrapWholeWords">
+                <Run FontFamily="Cambria Math">𝑠</Run> — длина пути, пройденного центром тяжести шарика за время <Run FontFamily="Cambria Math">𝑡</Run>, <Run FontFamily="Cambria Math">𝑚</Run> — масса шарика, <Run FontFamily="Cambria Math">𝑔</Run> — ускорение силы тяжести.
+            </TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

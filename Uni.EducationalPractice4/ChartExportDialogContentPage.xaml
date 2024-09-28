@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Uni.EducationalPractice4.ChartExportDialogContentPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" Spacing="16">
+        <Grid ColumnSpacing="8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0" Text="{x:Bind ImagePath, Mode=OneWay}" Header="Путь к файлу" IsReadOnly="True" MinWidth="300"/>
+            <Button Grid.Column="1" Content="Обзор..." Click="BrowseFileButton_Click" VerticalAlignment="Bottom"/>
+        </Grid>
+        <NumberBox Value="{x:Bind ImageWidth, Mode=TwoWay}" Header="Ширина изображения" Minimum="1" Maximum="2147483647" LargeChange="100" SmallChange="10" AcceptsExpression="True" SpinButtonPlacementMode="Inline"/>
+        <NumberBox Value="{x:Bind ImageHeight, Mode=TwoWay}" Header="Высота изображения" Minimum="1" Maximum="2147483647" LargeChange="100" SmallChange="10" AcceptsExpression="True" SpinButtonPlacementMode="Inline"/>
+    </StackPanel>
+</Page>

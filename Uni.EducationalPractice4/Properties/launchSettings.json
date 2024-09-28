@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Uni.EducationalPractice4 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Uni.EducationalPractice4 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

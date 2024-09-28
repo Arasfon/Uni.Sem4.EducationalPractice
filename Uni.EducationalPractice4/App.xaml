@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Application
+    x:Class="Uni.EducationalPractice4.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls"/>
+            </ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <ImageSource x:Key="FirstEquationImageSource">Assets/equation1_black.png</ImageSource>
+                    <ImageSource x:Key="SecondEquationImageSource">Assets/equation2_black.png</ImageSource>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Dark">
+                    <ImageSource x:Key="FirstEquationImageSource">Assets/equation1_white.png</ImageSource>
+                    <ImageSource x:Key="SecondEquationImageSource">Assets/equation2_white.png</ImageSource>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
