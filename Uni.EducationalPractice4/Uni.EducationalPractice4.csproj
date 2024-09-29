@@ -15,8 +15,8 @@
         <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
         <WindowsPackageType>None</WindowsPackageType>
         <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
-        <Authors>Arasfon</Authors>
-        <Copyright>ⓒ 2024 Arasfon</Copyright>
+        <Authors>Egor Boyarkin</Authors>
+        <Copyright>ⓒ 2024 Egor Boyarkin</Copyright>
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
